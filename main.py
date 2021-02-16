@@ -11,4 +11,4 @@ data = preprocessor.preprocess_data(data)
 loader.gsheets_upload(data)
 
 ### saving local copy of data
-data.to_excel('./data/processed_data_extract.xlsx')
+#data.to_excel('./data/processed_data_extract.xlsx')
